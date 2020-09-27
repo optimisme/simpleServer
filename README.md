@@ -28,9 +28,12 @@ npm install
 
 ### Fer anar el servidor ###
 
-Des del mateix directori 'simpleServer':
+Hi ha dues maneres de fer anar el servidor, la més senzilla, des del mateix directori 'simpleServer':
+```
+node server
+```
+
+Normalment volem que es reinicii automàticament si falla, o si es fa algún canvi. Per això és millor iniciar-lo així:
 ```
 npm run app
 ```
-
-El servidor es reinicia si fas algun canvi al codi o als arxius del servidor.
